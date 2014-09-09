@@ -1,0 +1,26 @@
+<package>
+  <name>opencv3</name>
+  <version>3.0.0</version>
+  <description>
+     Opencv3 bundled inside ros as a 3rd party release.
+  </description>
+  <url type="repository">https://github.com/stonier/opencv</url>
+  <url type="bugtracker">https://github.com/stonier/opencv/issues</url>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <license>BSD</license>
+  <author>Daniel Stonier</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <!-- Must be stacks of others too -->
+  <build_depend>libqt4-dev</build_depend>
+
+  <run_depend>catkin</run_depend>
+  <run_depend>libqt4-dev</run_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
+
+
